@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    border: 1px solid gray;
+    border-radius: 3mm;
+    margin: auto;
+    width: 50rem;
+    height: 25rem;
+    margin-top: 10rem;
+    padding-left: 1rem;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    margin-top: -10px;
+    background-color: white;
+    width: 6rem;
+    font-size: 1.3rem;
+}
+
+.title-input{
+    height: 30px;
+    width: 20rem;
+    margin-left: 5rem;
+    margin-top: -8.1rem;
+    
+}
+
+.email-input{
+    height: 30px;
+    width: 20rem;
+    margin-left: 5rem;
+    margin-top: 1.4rem;
+}
+.notes-input{
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 42rem;
+    padding-left: 5px;
+    padding-bottom: 170px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    height: 13rem;
+    resize: both; /* Allow both horizontal and vertical resizing */
+    overflow: auto;
+    max-width: 42rem;
+    max-height: 13rem;
+}
+
+.btn {
+    display: flex;
+    margin-left: 75rem;
+    margin-top: -2.5rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2mm;
+}
+
+.btn:hover{
+
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 5rem;
+    border: 5px solid black;
+    background-color: gray;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+button{
+    width: 10rem;
+    height: 2.7rem;
+    margin: 5px;
+    border-radius: 2mm;
+    background-color: lightgray;
+    color: white;
+}
+
+
