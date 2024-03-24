@@ -1,0 +1,24 @@
+Css reset:
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+rem
+
+
+display: flex;
+flex-direction{
+column
+row
+column-reverse
+row-reverse
+flex-wrap (items gaan naar de volgende regels als ze te groot zijn)
+align-items
+justify-content
+
+hoe krijg je met flex iets perfet in het midden
+display: flex;
+justify-content: center;
+align-items: center:
